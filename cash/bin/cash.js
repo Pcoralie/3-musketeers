@@ -6,6 +6,13 @@ const chalk = require('chalk');
 const ora = require('ora');
 const currencies = require('../lib/currencies.json');
 
+/** Get the information
+  *  we are interested in the currencies :
+  * USD
+  * EUR 
+  * GBP
+  * JPY
+  */
 const {API} = require('./constants');
 
 const cash = async command => {
